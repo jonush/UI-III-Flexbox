@@ -65,7 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* CODE STARTS HERE */
 nav {
-	display: flex;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 	justify-content: center;
 	align-items: center;
 }
@@ -86,7 +91,7 @@ nav {
 }
 
 nav a:hover {
-    color: rgb(10, 65, 245);
+    color: rgb(255, 65, 65);
     cursor: pointer;
 }
 
@@ -114,17 +119,25 @@ header {
 
 h1 {
     font-size: 28px;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 3%;
     text-align: left;
+    color: rgb(255, 65, 65);
 }
 
-.services-header-img {
+.features-banner-img {
+    object-fit: cover;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 47%;
     padding-bottom: 1%;
+    margin-top: 3.5%;
+}
+
+.intro p {
+    margin-top: 3%;
+    line-height: 1.5;
 }
 
 hr {
@@ -137,128 +150,53 @@ hr {
 
 .content {
     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tools {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 17%;
 }
 
-.row1 {
+.servers {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 17%;
 }
 
-.row2 {
+.support {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 17%;
 }
 
-.row3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+.icon {
+    width: 20%;
+    margin: 5%;
 }
 
-.digital {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-.ux {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-.marketing {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-.web {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-.ios {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-.android {
-    width: 43%;
-    background: lightgrey;
-    border: 1px solid #000000;
-    padding: 2%;
-    margin: 2%;
-}
-
-p {
-    line-height: 1.2;
-}
-
-button {
-    width: 36%;
+h3 {
     margin-top: 4%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border: 1px solid #000000;
-    border-radius: 5px;
 }
 
-button:hover {
-    background: #000000;
-    cursor: pointer;
-    color: #FFFFFF;
+.text {
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-content: center;
-}
-
-.facts {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
-    width: 25%;
-}
-
-.facts p {
-    width: 83%;
-}
-
-ul.items {
-    list-style-type: square;
-    list-style-position: inside;
-    margin-top: 4%;
-    line-height: 30px;
-}
-
-.services-info-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #copyright {
